@@ -1,18 +1,18 @@
-import { FETCH_PRODUCT, NEW_PRODUCT } from '../actions/types';
+import { FETCH_PRODUCT, NEW_PRODUCT, DELETE_PRODUCT } from '../actions/types';
 
 export const fetchProducts = () => dispatch => {
-    fetch( 'https://jsonplaceholder.typicode.com/comments' )
+    fetch( 'https://my-json-server.typicode.com/Akshay582/ecom-react/products' )
         .then( res => res.json() )
-        .then( comments => {
+        .then( products => {
             dispatch( {
                 type: FETCH_PRODUCT,
-                payload: comments
+                payload: products
             } )
         } )
 }
 
 export const createProduct = ( product ) => dispatch => {
-    fetch( 'https://jsonplaceholder.typicode.com/comments', {
+    fetch( 'https://my-json-server.typicode.com/Akshay582/ecom-react/products', {
         method: 'POST',
         headers: {
             'content-type': 'application/json'
@@ -21,9 +21,17 @@ export const createProduct = ( product ) => dispatch => {
     } )
         .then( res => res.json() )
         .then( product => {
+            console.log( 'Added new Product.' )
             dispatch( {
                 type: NEW_PRODUCT,
                 payload: product
             } )
         } )
+}
+
+export const deleteProduct = ( id ) => dispatch => {
+    dispatch( {
+        type: DELETE_PRODUCT,
+        payload: id
+    } )
 }

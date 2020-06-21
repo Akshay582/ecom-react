@@ -10,7 +10,8 @@ export default class Sort extends Component {
                         <Col></Col>
                         <Col md="auto"></Col>
                         <Col xs lg="2">
-                            <Button variant="light">Sort by Price</Button>
+                            <Button variant="light" onClick={this.props.Sort}>Sort by Price</Button>
+                            <Button variant="light" onClick={this.props.removeSort}><i className="fas fa-times-circle"></i></Button>
                         </Col>
                     </Row>
                 </Container>

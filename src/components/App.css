@@ -37,6 +37,8 @@ body {
   float: right;
 }
 
-.icon {
-  padding-left: 10px;
+.edit {
+  background-color: white;
+  border-radius: 5px;
+  border-width: 1px;
 }
