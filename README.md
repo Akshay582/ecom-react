@@ -1,4 +1,4 @@
-# React project for development of front-end of API
+# React project for development of front-end of Ecom
 
 - To set the project up
   `yarn install`
