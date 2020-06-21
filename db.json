@@ -9,9 +9,44 @@
     },
     {
       "id": "2",
-      "img": "https://img2.exportersindia.com/product_images/bc-full/2018/7/5746044/brown-plastic-chair-1531563861-4103335.jpeg",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/71fsxu1BqUL._SY679_.jpg",
       "name": "Chair",
-      "price": "$499",
+      "price": "$399",
+      "desc": "A well designed and crafted product that will suit many needs."
+    },
+    {
+      "id": "3",
+      "img": "https://ii1.pepperfry.com/media/catalog/product/s/t/494x544/stella-four-seater-dining-table-in-dark-walnut-finish-by-hometown-stella-four-seater-dining-table-in-2uzpfz.jpg",
+      "name": "Table",
+      "price": "$599",
+      "desc": "A well designed and crafted product that will suit many needs."
+    },
+    {
+      "id": "4",
+      "img": "https://www.nixon.com/dw/image/v2/AAYF_PRD/on/demandware.static/-/Sites-masterCatalog_Nixon/default/dwa56fe2a5/products/C3003-000-view1.jpg?sfrm=png",
+      "name": "Backpack",
+      "price": "$99",
+      "desc": "A well designed and crafted product that will suit many needs."
+    },
+    {
+      "id": "5",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/51yLIxvuKGL._SX466_.jpg",
+      "name": "Hand Sanitizer",
+      "price": "$49",
+      "desc": "A well designed and crafted product that will suit many needs."
+    },
+    {
+      "id": "6",
+      "img": "https://marketplace.canva.com/EAD7WZcTOD8/1/0/251w/canva-couple-silhouette-romance-chick-lit-book-cover-GmQ7W-GdHN0.jpg",
+      "name": "About Last Night",
+      "price": "$49",
+      "desc": "A well designed and crafted product that will suit many needs."
+    },
+    {
+      "id": "7",
+      "img": "https://marketplace.canva.com/EADanktU9AE/1/0/251w/canva-green-beach-photo-book-cover-o2wPCwYqW2w.jpg",
+      "name": "The Sun In His Eyes",
+      "price": "$99",
       "desc": "A well designed and crafted product that will suit many needs."
     }
   ]
