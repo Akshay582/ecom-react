@@ -1,0 +1,42 @@
+body {
+  background-color: lightskyblue;
+}
+
+.nav-brand {
+  text-shadow: 0.5px 0.5px 5px white;
+}
+
+.row {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.sort-row {
+  background-color: lightskyblue;
+}
+
+.col-lg-2 {
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+}
+
+.card {
+  border: none;
+}
+
+.desc-pad {
+  padding-top: 15px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+.con-icon {
+  padding-right: 20px;
+  float: right;
+}
+
+.icon {
+  padding-left: 10px;
+}
