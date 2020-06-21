@@ -12,12 +12,18 @@ export const fetchProducts = () => dispatch => {
 }
 
 export const createProduct = ( product ) => dispatch => {
-    fetch( 'https://jsonplaceholder.typicode.com/comments' )
+    fetch( 'https://jsonplaceholder.typicode.com/comments', {
+        method: 'POST',
+        headers: {
+            'content-type': 'application/json'
+        },
+        body: JSON.stringify( product )
+    } )
         .then( res => res.json() )
-        .then( comments => {
+        .then( product => {
             dispatch( {
-                type: FETCH_PRODUCT,
-                payload: comments
+                type: NEW_PRODUCT,
+                payload: product
             } )
         } )
 }
