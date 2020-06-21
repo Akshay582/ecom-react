@@ -1,9 +1,11 @@
 {
-  "products": {
-    "id": "1",
-    "img": "https://img2.exportersindia.com/product_images/bc-full/2018/7/5746044/brown-plastic-chair-1531563861-4103335.jpeg",
-    "name": "Chair",
-    "price": "$499",
-    "desc": "A well designed and crafted product that will suit many needs."
-  }
+  "products": [
+    {
+      "id": "1",
+      "img": "https://img2.exportersindia.com/product_images/bc-full/2018/7/5746044/brown-plastic-chair-1531563861-4103335.jpeg",
+      "name": "Chair",
+      "price": "$499",
+      "desc": "A well designed and crafted product that will suit many needs."
+    }
+  ]
 }
